@@ -23,7 +23,7 @@ public class App {
         }
         Dice dice = new Dice();
         Board b = new Board(10);
-        b.PrintBoard();
+        b.printBoard();
         Game g = new Game(b, players, dice);
         g.play();
     }
